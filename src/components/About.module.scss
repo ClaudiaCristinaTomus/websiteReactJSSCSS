@@ -1,0 +1,27 @@
+@import "./../styles/variables.scss";
+
+.section_about{
+    
+    height:70vh;
+    background-size: cover;
+    overflow: hidden;
+ 
+    display:flex;
+    margin:0 70px;
+    .about_left{
+        max-width: 700px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about_right{
+        img{
+            margin-top: 100px;
+            width:280px;
+            height:380px;
+            margin-left:100px;
+        }
+    }
+
+}
