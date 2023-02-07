@@ -18,9 +18,9 @@ const Header = () => {
                 <nav className={`${styles.nav} ${menuOpen ? styles[`nav--open`]:{}}`}>
                     <a className={styles.nav_item} href={"/"}>Home</a>
                     <a className={styles.nav_item} href={"/"}>About Us</a>
-                    <a className={styles.nav_item} href={"/"}>Our Service</a>
-                    <a className={styles.nav_item} href={"/"}>Testimonials</a>
                     <a className={styles.nav_item} href={"/"}>Contact</a>
+                    <a className={styles.nav_item} href={"/"}>Blog</a>
+                    <a className={styles.nav_item} href={"/"}>Careers</a>
                     <div className={styles.nav_button_container}>
                         <Button/>
                     </div>
@@ -42,7 +42,7 @@ const Header = () => {
 
 
 const Button=()=>{
-    return <button className={styles.button}>Appointment</button>;
+    return <button className={styles.button}>Request Invite</button>;
 }
 
 export default Header
