@@ -27,14 +27,14 @@
 
             &:nth-child(2){
                 display:flex;
-                justify-content: flex-end;
+                justify-content: center;
                 height:100%;
                 margin-right: $spacing-md;
             }
             &:last-of-type{
                 display: flex;
-                justify-content: flex-end;
-                flex:0;
+                justify-content: center;
+                flex:1;
             }
         }
     }
