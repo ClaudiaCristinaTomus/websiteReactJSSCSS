@@ -1,6 +1,88 @@
 @import "./../styles/variables.scss";
 
 .footer{
-    height:20vh;
+    height:40vh;
     background-color: rgba(123, 124, 121, 0.949);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    .column1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin:0 50px;
+        .logo{
+            
+            font-size: 20px;
+            font-weight: 100;
+            color:white;
+            text-shadow: 1px 1px 1px $primary, 0 0 1em $primary, 0 0 0.2em $primary;
+           
+        }
+        .icons{
+            margin-top: 90px;
+        }
+    }
+    .column2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin:0 40px;
+        .footer_item{
+            margin:20px;
+        }
+        a{
+            color:white;
+            list-style: none;
+            text-decoration: none;
+        }
+        
+    }
+    .column3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin:0 50px;
+        .footer_item{
+            margin:20px;
+        }
+        a{
+            color:white;
+            list-style: none;
+            text-decoration: none;
+        }
+    }
+    .column4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin:0 10px;
+        margin-left: 300px;
+        margin-right: 30px;
+        .footer_rights{
+            color:rgb(193, 189, 189);
+            margin:40px;
+        }
+        .button{
+            font-weight: 500;
+            color:$primary;
+            border:2px solid $primary;
+            padding:$spacing-sm $spacing-md;
+            border-radius: calc($spacing-sm/2);
+            cursor:pointer;
+            box-shadow: 0 0 0.5em 0 $primary;
+            &:active{
+                transform:scale(0.98);
+                border-radius: 0;
+            }
+            &:hover{
+                box-shadow: 0 0 0.75em 0 $primary;
+            }
+        }
+    }
 }

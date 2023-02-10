@@ -44,6 +44,7 @@
         @include breakpoint(md){
             display:initial;
         }
+        margin-left: 200px;
     }
 
     &_toggler{
@@ -119,7 +120,7 @@
         @include breakpoint(md){
             display:none;
         }
-
+       
         padding:$spacing-md;
     }
 }
