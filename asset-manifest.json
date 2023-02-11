@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/websiteReactJSSCSS/static/css/main.d7b3bb64.css",
+    "main.js": "/websiteReactJSSCSS/static/js/main.106b8fd5.js",
+    "static/media/image-currency.jpg": "/websiteReactJSSCSS/static/media/image-currency.1b385bf9f62bf25ef22d.jpg",
+    "static/media/image-restaurant.jpg": "/websiteReactJSSCSS/static/media/image-restaurant.1951b57675babfd83c6c.jpg",
+    "static/media/image-mockups.png": "/websiteReactJSSCSS/static/media/image-mockups.48d35b175fe3d36de4ee.png",
+    "static/media/image-plane.jpg": "/websiteReactJSSCSS/static/media/image-plane.03db115dff75876c3f3d.jpg",
+    "static/media/image-confetti.jpg": "/websiteReactJSSCSS/static/media/image-confetti.67921b1124297023a080.jpg",
+    "index.html": "/websiteReactJSSCSS/index.html",
+    "main.d7b3bb64.css.map": "/websiteReactJSSCSS/static/css/main.d7b3bb64.css.map",
+    "main.106b8fd5.js.map": "/websiteReactJSSCSS/static/js/main.106b8fd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7b3bb64.css",
+    "static/js/main.106b8fd5.js"
+  ]
+}
